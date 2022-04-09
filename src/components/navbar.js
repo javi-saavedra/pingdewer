@@ -31,7 +31,7 @@ function NavBar() {
   }
 
   const getAllUsers = async () => {
-    const url = 'https://ewerulestheworld.tk/users'
+    const url = 'https://ewelovescats.tk/users'
 
     try {
       const res = await axios.get(url);
@@ -48,7 +48,7 @@ function NavBar() {
   const signOut = () => {
     const userId = localStorage.getItem('userId');
     const token = localStorage.getItem('token');
-    const url = `https://ewerulestheworld.tk/sessions/${userId}`;
+    const url = `https://ewelovescats.tk/sessions/${userId}`;
 
     const instance = axios.create({
       baseURL: url

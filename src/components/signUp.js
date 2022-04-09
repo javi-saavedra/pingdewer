@@ -8,7 +8,7 @@ function SignUp() {
   let navigate = useNavigate();
 
   const onFinish = (values) => {
-    let url = "https://ewerulestheworld.tk/users";
+    let url = "https://ewelovescats.tk/users";
 
     const instance = axios.create({
       baseURL: url

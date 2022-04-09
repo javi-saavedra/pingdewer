@@ -57,8 +57,8 @@ function UserMap() {
   }
 
   const getAllPositions = async () => {
-    const url_1 = `https://ewerulestheworld.tk/users/${userId}/locations`;
-    const url_2 = `https://ewerulestheworld.tk/users/${otherUserId}/locations`;
+    const url_1 = `https://ewelovescats.tk/users/${userId}/locations`;
+    const url_2 = `https://ewelovescats.tk/users/${otherUserId}/locations`;
 
     try {
       const res_1 = await axios.get(url_1, {headers: {'X-API-TOKEN': token}});
@@ -72,7 +72,7 @@ function UserMap() {
   }
 
   const getUserInformation = async () => {
-    const url = `https://ewerulestheworld.tk/users/${otherUserId}`;
+    const url = `https://ewelovescats.tk/users/${otherUserId}`;
     
     try {
       const res = await axios.get(url, {headers: {'X-API-TOKEN': token}});
@@ -83,7 +83,7 @@ function UserMap() {
   }
 
   const handlePing = () => {
-    let url = "https://ewerulestheworld.tk/pings";
+    let url = "https://ewelovescats.tk/pings";
 
     const instance = axios.create({
       baseURL: url

@@ -9,7 +9,7 @@ function LogIn() {
   let navigate = useNavigate();
 
   const onFinish = (values) => {    
-    let url = "https://ewerulestheworld.tk/sessions";
+    let url = "https://ewelovescats.tk/sessions";
 
     const instance = axios.create({
       baseURL: url

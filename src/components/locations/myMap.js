@@ -15,7 +15,7 @@ function MyMap() {
 
   const userId = localStorage.getItem('userId');
   const token = localStorage.getItem('token');
-  const url = `https://ewerulestheworld.tk/users/${userId}/locations`;
+  const url = `https://ewelovescats.tk/users/${userId}/locations`;
   
   useEffect(() => {
     async function fetchData() {

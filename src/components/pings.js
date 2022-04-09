@@ -22,7 +22,7 @@ function MyPings() {
   }, []);
 
   const getPings = async () => {
-    const url = `https://ewerulestheworld.tk/pings/?recipient_id=${userId}`
+    const url = `https://ewelovescats.tk/pings/?recipient_id=${userId}`
 
     try {
       const res = await axios.get(url);
